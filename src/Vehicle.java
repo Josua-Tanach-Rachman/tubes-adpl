@@ -3,8 +3,7 @@ abstract class Vehicle {
     abstract void stopEngine();
     abstract void drive();
     abstract void reverse();
-    abstract void brake();
-    abstract void accelerate();
     abstract void turnLeft();
     abstract void turnRight();
+    abstract void honk();
 }

@@ -1,19 +1,17 @@
 class Car extends Vehicle {
+    void startEngine() {
+        System.out.println("Car engine start");
+    }
+
+    void stopEngine() {
+        System.out.println("Car engine stop");
+    }
+
     void drive() {
         System.out.println("Car is driving");
     }
     void reverse() {
         System.out.println("Car is reversing");
-        
-    }
-
-    void brake() {
-        System.out.println("Car is braking");
-        
-    }
-
-    void accelerate() {
-        System.out.println("Car is accelerating");
         
     }
 
@@ -24,16 +22,10 @@ class Car extends Vehicle {
 
     void turnRight() {
         System.out.println("Car is turning right");
-
     }
 
-    void startEngine() {
-        System.out.println("Car engine start");
-        
-    }
-
-    void stopEngine() {
-        System.out.println("Car engine stop");
-        
+    @Override
+    void honk() {
+        System.out.println("Car is honking");
     }
 }

@@ -15,16 +15,6 @@ abstract class VehicleDecorator extends Vehicle {
     }
 
     @Override
-    void accelerate() {
-        vehicle.accelerate();
-    }
-
-    @Override
-    void brake() {
-        vehicle.brake();
-    }
-
-    @Override
     void drive() {
         vehicle.drive();
     }
@@ -42,6 +32,11 @@ abstract class VehicleDecorator extends Vehicle {
     @Override
     void turnRight() {
         vehicle.turnRight();
+    }
+
+    @Override
+    void honk() {
+        vehicle.honk();
     }
 
     
